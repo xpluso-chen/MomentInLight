@@ -1,0 +1,16 @@
+$breakpoints:(
+    xxxs:376px,
+    xxs: 391px,
+    xs: 576px,   // 超小裝置 (手機)
+    sm: 768px,   // 小裝置 (平板直立)
+    md: 992px,   // 中裝置 (平板橫向 / 小筆電)
+    lg: 1200px,  // 大裝置 (筆電)
+    xl: 1400px   // 超大裝置 (桌機)
+);
+
+// 淺層函式：用來產生媒體查詢
+@mixin respond-to($size){
+    @media (max-width: map-get($breakpoints, $size)) {
+        @content;
+      }
+}
