@@ -141,7 +141,7 @@ body #navbar {
 }
 @media (max-width: 576px) {
   body #navbar {
-    background-color: rgba(83, 124, 163, 0.5);
+    background-color: rgba(83, 124, 163, 0.7);
   }
 }
 body #navbar .navbar-brand {
@@ -247,12 +247,12 @@ body #introduce2 {
     height: 120dvh;
   }
 }
-@media (max-width: 391px) {
+@media (max-width: 490px) {
   body #introduce2 {
-    height: 130dvh;
+    height: 140dvh;
   }
 }
-@media (max-width: 376px) {
+@media (max-width: 410px) {
   body #introduce2 {
     height: 170dvh;
   }
