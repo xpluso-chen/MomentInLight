@@ -250,7 +250,7 @@ body {
         }
 
         @include respond-to(xxs) {
-            //490
+            //410
             height: 130dvh;
         }
 
@@ -387,6 +387,9 @@ body {
         // list
         .list-group {
             padding-bottom: map-get($interval, s);
+            @include respond-to(xs){
+                padding-bottom: map-get($interval, m);
+            }
 
             .news-list {
                 color: map-get($color, bg-yellow);

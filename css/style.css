@@ -247,7 +247,7 @@ body #introduce2 {
     height: 120dvh;
   }
 }
-@media (max-width: 490px) {
+@media (max-width: 410px) {
   body #introduce2 {
     height: 130dvh;
   }
@@ -356,6 +356,11 @@ body #news-area {
 }
 body #news-area .list-group {
   padding-bottom: 1.5rem;
+}
+@media (max-width: 576px) {
+  body #news-area .list-group {
+    padding-bottom: 2.5rem;
+  }
 }
 body #news-area .list-group .news-list {
   color: #EEEEEC;
