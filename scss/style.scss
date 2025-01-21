@@ -250,8 +250,8 @@ body {
         }
 
         @include respond-to(xxs) {
-            //410
-            height: 130dvh;
+            //414
+            height: 150dvh;
         }
 
         @include respond-to(xxxs) {

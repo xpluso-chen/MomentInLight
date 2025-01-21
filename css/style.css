@@ -249,7 +249,7 @@ body #introduce2 {
 }
 @media (max-width: 414px) {
   body #introduce2 {
-    height: 130dvh;
+    height: 150dvh;
   }
 }
 @media (max-width: 375px) {
