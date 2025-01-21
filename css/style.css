@@ -357,11 +357,6 @@ body #news-area {
 body #news-area .list-group {
   padding-bottom: 1.5rem;
 }
-@media (max-width: 576px) {
-  body #news-area .list-group {
-    padding-bottom: 2.5rem;
-  }
-}
 body #news-area .list-group .news-list {
   color: #EEEEEC;
   background-color: rgba(255, 255, 255, 0.2);
@@ -369,6 +364,9 @@ body #news-area .list-group .news-list {
 }
 body #news-area .list-group .news-list:hover {
   background-color: rgba(0, 0, 0, 0.3);
+}
+body #news-area #btn-more {
+  margin-bottom: 1.5rem;
 }
 body #footer {
   position: relative;

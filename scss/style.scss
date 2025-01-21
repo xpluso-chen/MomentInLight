@@ -387,9 +387,6 @@ body {
         // list
         .list-group {
             padding-bottom: map-get($interval, s);
-            @include respond-to(xs){
-                padding-bottom: map-get($interval, m);
-            }
 
             .news-list {
                 color: map-get($color, bg-yellow);
@@ -411,6 +408,7 @@ body {
 
         #btn-more {
             @extend %white-border-bottom;
+            margin-bottom: map-get($interval, s);
         }
     }
 
