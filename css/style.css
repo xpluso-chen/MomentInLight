@@ -252,7 +252,7 @@ body #introduce2 {
     height: 140dvh;
   }
 }
-@media (max-width: 410px) {
+@media (max-width: 370px) {
   body #introduce2 {
     height: 170dvh;
   }
