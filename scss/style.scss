@@ -251,12 +251,12 @@ body {
 
         @include respond-to(xxs) {
             //414
-            height: 150dvh;
+            height: 160dvh;
         }
 
         @include respond-to(xxxs) {
             //375
-            height: 170dvh;
+            height: 180dvh;
         }
 
         #introduce-content2 {
