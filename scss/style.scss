@@ -408,7 +408,7 @@ body {
 
         #btn-more {
             @extend %white-border-bottom;
-            margin-bottom: map-get($interval, s);
+            margin-bottom: map-get($interval, m);
         }
     }
 
