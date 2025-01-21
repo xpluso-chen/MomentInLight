@@ -247,9 +247,9 @@ body #introduce2 {
     height: 120dvh;
   }
 }
-@media (max-width: 414px) {
+@media (max-width: 480px) {
   body #introduce2 {
-    height: 150dvh;
+    height: 140dvh;
   }
 }
 @media (max-width: 375px) {
