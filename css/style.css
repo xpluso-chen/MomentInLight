@@ -247,12 +247,12 @@ body #introduce2 {
     height: 120dvh;
   }
 }
-@media (max-width: 410px) {
+@media (max-width: 414px) {
   body #introduce2 {
     height: 130dvh;
   }
 }
-@media (max-width: 370px) {
+@media (max-width: 375px) {
   body #introduce2 {
     height: 170dvh;
   }
