@@ -74,7 +74,8 @@ body {
         width: 80%;
         padding: map-get($interval, m) 0;
         @extend %flex-column-center;
-        @include respond-to(xs){
+
+        @include respond-to(xs) {
             padding: map-get($interval, s) 0;
         }
     }
@@ -118,10 +119,12 @@ body {
         top: 0;
         width: 100%;
         z-index: 999;
-        @include respond-to(xs){
+
+        @include respond-to(xs) {
             // 手機版
-            background-color: map-get($color, nav-deepblue );
+            background-color: map-get($color, nav-deepblue);
         }
+
         .navbar-brand {
             position: relative;
 
@@ -147,12 +150,13 @@ body {
                     width: 90%;
                     height: 100%;
                     @extend %white-border-bottom;
-                    @include respond-to(xs){
+
+                    @include respond-to(xs) {
                         // 手機版
-                        left: 0%; 
+                        left: 0%;
                     }
                 }
-                
+
 
             }
         }
@@ -251,12 +255,12 @@ body {
 
         @include respond-to(xxs) {
             //414
-            height: 160dvh;
+            height: 170dvh;
         }
 
         @include respond-to(xxxs) {
             //375
-            height: 180dvh;
+            height: 190dvh;
         }
 
         #introduce-content2 {
