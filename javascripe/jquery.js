@@ -34,15 +34,13 @@ $(function () {
     const scrollTop = $(this).scrollTop(); // 當前滾動距離
     const windowHeight = $(window).height(); // 視窗高度
 
-    const introduce2 = $('#introduce2'); // 視差區塊
-    const introduce2Offset = introduce2.offset().top; // 區塊頂部位置
-    const introduce2Height = introduce2.outerHeight(); // 區塊高度
-
-    // 確保視差效果只在區塊進入視窗時啟用
+    // 視差效果
+    const introduce2Offset = $('#introduce2').offset().top; // 區塊頂部位置
+    const introduce2Height = $('#introduce2').outerHeight(); // 區塊高度
     if (scrollTop + windowHeight > introduce2Offset && scrollTop < introduce2Offset + introduce2Height) {
-        const parallaxSpeed = 0.9; // 視差滾動速度
-        const offset = Math.min((scrollTop - introduce2Offset) * parallaxSpeed, introduce2Height); // 防止超出範圍
-        introduce2.css('background-position', `center ${offset}px`);
+      const parallaxSpeed = 0.9; // 視差滾動速度
+      const offset = Math.max(0, (scrollTop - introduce2Offset) * parallaxSpeed);
+      $('#introduce2').css('background-position', `center ${offset}px`);
     }
 
     // 滾動文字效果
